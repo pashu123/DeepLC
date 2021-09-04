@@ -12,7 +12,7 @@
 include "mlir/IR/OpBase.td"
 
 //===----------------------------------------------------------------------===//
-// Standalone dialect definition.
+// DeepLC dialect definition.
 //===----------------------------------------------------------------------===//
 
 def DeepLC_Dialect : Dialect {
@@ -27,7 +27,7 @@ def DeepLC_Dialect : Dialect {
 }
 
 //===----------------------------------------------------------------------===//
-// Base standalone operation definition.
+// Base deeplc operation definition.
 //===----------------------------------------------------------------------===//
 
 class DeepLC_Op<string mnemonic, list<OpTrait> traits = []> :
