@@ -19,7 +19,7 @@
 #include "llvm/Support/SourceMgr.h"
 #include "llvm/Support/ToolOutputFile.h"
 
-#include "DeepLC/DeepLCDialect.h"
+#include "DeepLC/Dialect/deeplc/DeepLCDialect.h"
 
 int main(int argc, char **argv) {
   mlir::registerAllPasses();

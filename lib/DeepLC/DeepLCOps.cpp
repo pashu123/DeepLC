@@ -6,9 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "DeepLC/DeepLCOps.h"
-#include "DeepLC/DeepLCDialect.h"
+#include "DeepLC/Dialect/deeplc/DeepLCOps.h"
+#include "DeepLC/Dialect/deeplc/DeepLCDialect.h"
 #include "mlir/IR/OpImplementation.h"
 
 #define GET_OP_CLASSES
-#include "DeepLC/DeepLCOps.cpp.inc"
+#include "DeepLC/Dialect/deeplc/DeepLCOps.cpp.inc"

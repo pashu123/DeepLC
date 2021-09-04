@@ -6,13 +6,13 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "DeepLC/DeepLCDialect.h"
-#include "DeepLC/DeepLCOps.h"
+#include "DeepLC/Dialect/deeplc/DeepLCDialect.h"
+#include "DeepLC/Dialect/deeplc/DeepLCOps.h"
 
 using namespace mlir;
 using namespace mlir::deeplc;
 
-#include "DeepLC/DeepLCOpsDialect.cpp.inc"
+#include "DeepLC/Dialect/deeplc/DeepLCOpsDialect.cpp.inc"
 
 //===----------------------------------------------------------------------===//
 // Standalone dialect.
@@ -21,6 +21,6 @@ using namespace mlir::deeplc;
 void DeepLCDialect::initialize() {
   addOperations<
 #define GET_OP_LIST
-#include "DeepLC/DeepLCOps.cpp.inc"
+#include "DeepLC/Dialect/deeplc/DeepLCOps.cpp.inc"
       >();
 }

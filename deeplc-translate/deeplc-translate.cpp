@@ -15,7 +15,7 @@
 #include "mlir/Support/LogicalResult.h"
 #include "mlir/Translation.h"
 
-#include "DeepLC/DeepLCDialect.h"
+#include "DeepLC/Dialect/deeplc/DeepLCDialect.h"
 
 int main(int argc, char **argv) {
   mlir::registerAllTranslations();
